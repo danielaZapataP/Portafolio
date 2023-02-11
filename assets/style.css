@@ -115,16 +115,15 @@ nav a:hover {
 }
 
 /* habilidades 1 imagenes */
-.habilidad2 {
-  display: block;
-}
 
 .imagenes1 img, .imagenes2 img {
   width: 27%;
 }
 .imagenes1 , .imagenes2 {
   width: 50%;
-  margin: 0 auto;
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Habilidades 2 */
@@ -145,7 +144,7 @@ nav a:hover {
 }
 
 .texto-blnda {
-  margin-left: 25%;
+  margin-left: 35%;
   width: 60%;
   padding-top: 4%;
 }
@@ -185,7 +184,7 @@ hr {
 
 .card p {
   color: white;
-  font-size: 1.4em;
+  font-size: 1rem;
 }
 
 .nombre-proyecto {

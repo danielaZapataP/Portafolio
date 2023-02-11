@@ -1,0 +1,243 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+nav {
+  background-color: #098e93;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.list {
+  float: left;
+}
+
+/* Header info */
+#inicio {
+  background-color: #d0f2f3;
+  width: 100%;
+}
+
+.mi-info {
+  width: 90%;
+  margin: 0px auto;
+  color: #098e93;
+}
+
+.mi-info h1,
+.mi-info h2 {
+  text-align: center;
+}
+
+.mi-info h1 {
+  font-family: "Belleza", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0.3rem;
+}
+
+.mi-info h2 {
+  font-family: "Zeyada", cursive;
+  font-size: 2.6rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.9rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.mountain {
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  position: relative;
+}
+
+.nube1 {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  width: 15%;
+  height: auto;
+}
+
+
+.nube2 {
+  position: absolute;
+  right: 15%;
+  top: 70%;
+  width: 15%;
+  height: auto;
+}
+
+/* Habilidades */
+#habilidades {
+  width: 80%;
+  margin: 2% auto;
+  display: flow-root;
+}
+
+#habilidades h2, #proyectos h2{
+  color: #098e93;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#habilidades h3{
+  color: #098e93;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+/* habilidades 1 imagenes */
+.habilidad2 {
+  display: block;
+}
+
+.imagenes1 img, .imagenes2 img {
+  width: 27%;
+}
+.imagenes1 , .imagenes2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Habilidades 2 */
+.habilidad2 {
+  margin-bottom: 10px;
+}
+
+.contenido-blnd {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.img-blnda {
+  float: left;
+  width: 25%;
+  clear: left;
+  margin-right: 10px;
+}
+
+.texto-blnda {
+  margin-left: 25%;
+  width: 60%;
+  padding-top: 4%;
+}
+
+.texto-blnda li {
+  font-size: 1.2em;
+}
+
+/* horizontal ruler */
+hr {
+  border-style: dotted none none none;
+  border-width: 10px;
+  color: #ccc;
+  width: 40%;
+  
+}
+
+/* Proyectos */
+.contenedor {
+  align-items: center;
+  display: grid;
+  grid-template-columns:32% 32% 32%;
+  gap: 2%;
+  margin: 3% auto;
+  width: 70%;
+}
+
+#proyectos img{
+  width: 70%;
+}
+
+.card {
+  border-radius: 10%; 
+  margin: auto;
+  text-align: center;
+}
+
+.card p {
+  color: white;
+  font-size: 1.4em;
+}
+
+.nombre-proyecto {
+  background-color: #098e93;
+  max-height: 500px;
+  min-height: 30px;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30px;
+}
+
+/* Footer */
+
+.footer{
+  background-color:#098e93;
+  color: white;
+  overflow: hidden;
+  width: 100%;
+}
+
+.copyright-text {
+  width: 50%;
+  float: left;
+}
+
+.copyright-text p{
+  text-align: center;
+}
+
+.contactame{
+  float: right;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.contactame a:visited{
+  color:inherit;
+  text-decoration: none;
+  
+}
+
+.contactame p a{
+  color:inherit;
+  text-decoration: dashed;
+  
+}
+/* Font awesome icons */
+.fa-brands {
+  color : white;
+  padding-bottom: 20px;
+}
